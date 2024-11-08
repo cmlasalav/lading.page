@@ -1,0 +1,137 @@
+db.Post.Tags.insertMany([
+    { IdTag: "1984688", Tags: "Tecnología" },
+    { IdTag: "7459470", Tags: "Ciencia" },
+    { IdTag: "5789762", Tags: "Deportes" }
+]);
+
+db.Genera.Services.insertMany([
+    //1
+    {
+        ServicesName_EN: "Industry Expert Consulting",
+        ServiceDescription_EN: "Collaborate with industry experts to enhance competitiveness and achieve sustaible growth.",
+        ServicesName_ES: "Consultoría de Expertos en la Industria",
+        ServiceDescription_ES: " Colabora con expertos de la industria para mejorar la competitividad y lograr un crecimiento sostenible.",
+        ServiceImage: "https://paradoxmarketing.io/wp-content/uploads/2019/10/a-guide-to-the-different-types-of-consulting-services-min.png"
+    },
+    //2
+    {
+        ServicesName_EN: "Processes Analysis and Improvement",
+        ServiceDescription_EN: "Identify inefficiencies and streamline operations for improved efficiency and operational excellence.",
+        ServicesName_ES: "Análisis y Mejora de Procesos",
+        ServiceDescription_ES: "Identifica ineficiencias y optimiza las operaciones para mejorar la eficiencia y la excelencia operativa.",
+        ServiceImage: "https://paradoxmarketing.io/wp-content/uploads/2019/10/a-guide-to-the-different-types-of-consulting-services-min.png"
+    },
+    //3
+    {
+        ServicesName_EN: "Technical Infrastructure Empowerment",
+        ServiceDescription_EN: "Leverage cutting-edge technologies to optimize infrastructure and support business scalability.",
+        ServicesName_ES: "Empoderamiento de la Infraestructura Técnica",
+        ServiceDescription_ES: "Aprovecha las tecnologías de vanguardia para optimizar la infraestructura y apoyar la escalabilidad del negocio.",
+        ServiceImage: "https://paradoxmarketing.io/wp-content/uploads/2019/10/a-guide-to-the-different-types-of-consulting-services-min.png"
+    },
+    //4
+    {
+        ServicesName_EN: "Security and Compliance",
+        ServiceDescription_EN: "Ensure robust security measures and regulatory compliance to safeguard your business operations and data integrity.",
+        ServicesName_ES: "Seguridad y Cumplimiento",
+        ServiceDescription_ES: "Asegura medidas de seguridad robustas y cumplimiento normativo para proteger las operaciones y la integridad de los datos de tu empresa.",
+        ServiceImage: "https://paradoxmarketing.io/wp-content/uploads/2019/10/a-guide-to-the-different-types-of-consulting-services-min.png"
+    },
+    //5
+    {
+        ServicesName_EN: "Cloud Infrastructure Architecture",
+        ServiceDescription_EN: "Design scalable and resilient cloud solutions tailored to your business needs, enabling agility and cost-effectiveness.",
+        ServicesName_ES: "Arquitectura de Infraestructura en la Nube",
+        ServiceDescription_ES: "Diseña soluciones en la nube escalables y resilientes adaptadas a las necesidades de tu negocio, permitiendo agilidad y rentabilidad.",
+        ServiceImage: "https://paradoxmarketing.io/wp-content/uploads/2019/10/a-guide-to-the-different-types-of-consulting-services-min.png"
+    },
+    //6
+    {
+        ServicesName_EN: "Data Science and Machine Learning",
+        ServiceDescription_EN: "Harness the power of data with advanced analytics and machine learning models to drive insights and innovation.",
+        ServicesName_ES: "Ciencia de Datos y Aprendizaje Automático",
+        ServiceDescription_ES: "Aprovecha el poder de los datos con análisis avanzados y modelos de aprendizaje automático para impulsar insights e innovación.",
+        ServiceImage: "https://paradoxmarketing.io/wp-content/uploads/2019/10/a-guide-to-the-different-types-of-consulting-services-min.png"
+    },
+    //7
+    {
+        ServicesName_EN: "Fintech Product Development",
+        ServiceDescription_EN: "Develop cutting-edge fintech solutions that transform financial services and enhance customer experiences.",
+        ServicesName_ES: "Desarrollo de Productos Fintech ",
+        ServiceDescription_ES: "Desarrolla soluciones fintech innovadoras que transformen los servicios financieros y mejoren la experiencia del cliente.",
+        ServiceImage: "https://paradoxmarketing.io/wp-content/uploads/2019/10/a-guide-to-the-different-types-of-consulting-services-min.png"
+    },
+    //8
+    {
+        ServicesName_EN: "Insurtech Product Development",
+        ServiceDescription_EN: "Innovate with our upcoming Insurtech product designed to revolutionize insurance processes and customer engagement.",
+        ServicesName_ES: "Desarrollo de Productos Insurtech",
+        ServiceDescription_ES: "Innova con nuestro próximo producto Insurtech diseñado para revolucionar los procesos de seguros y el compromiso con el cliente.",
+        ServiceImage: "https://paradoxmarketing.io/wp-content/uploads/2019/10/a-guide-to-the-different-types-of-consulting-services-min.png"
+    },
+
+]);
+
+
+db.Genera.Home.insertMany([
+    {
+        HomeTitle: "Consulting Group",
+        HomeDescription_EN: "Welcome to Genera Consulting Group, your strategic partner in business transformation and innovation. Established in 2023, we specialize in providing expert consulting services to industry leaders, focusing on processes analysis and improvement, empowering technical infrastructure, security, compliance, cloud infrastructure architecture, data science, machine learning, fintech product development, and Insurtech solutions to drive sustainable growth and success.",
+        HomeDescription_ES: "Bienvenido a Genera Consulting Group, su socio estratégico en transformación empresarial e innovación. Establecidos en 2023, nos especializamos en ofrecer servicios de consultoría experta a líderes de la industria, enfocándonos en el análisis y mejora de procesos, potenciación de infraestructura técnica, seguridad, cumplimiento, arquitectura de infraestructura en la nube, ciencia de datos, aprendizaje automático, desarrollo de productos fintech y soluciones Insurtech para impulsar el crecimiento y éxito sostenible."
+        HomeImg: "https://paradoxmarketing.io/wp-content/uploads/2019/10/a-guide-to-the-different-types-of-consulting-services-min.png"
+
+    }
+]);
+
+db.Genera.AboutUs.insertMany([
+    {
+        AboutUsTitle_EN: "Company Story"
+        AboutUsDescription_EN: "Founded in 2023, Genera Consulting Group has quickly emerged as a trusted consultancy known for delivering tailored solutions that drive business success. Our diverse team includes top software developers, data scientists, digital transformation specialists, marketing experts, security, compliance professionals, cloud architects, fintech product developers, and Insurtech innovators."
+        AboutUsTitle_ES: "Historia de la Empresa"
+        AboutUsDescription_ES: "Fundada en 2023, Genera Consulting Group ha emergido rápidamente como una consultora de confianza, conocida por ofrecer soluciones personalizadas que impulsan el éxito empresarial. Nuestro diverso equipo incluye a los mejores desarrolladores de software, científicos de datos, especialistas en transformación digital, expertos en marketing, profesionales de seguridad y cumplimiento, arquitectos en la nube, desarrolladores de productos fintech e innovadores en Insurtech."
+        AboutUsImg: "https://paradoxmarketing.io/wp-content/uploads/2019/10/a-guide-to-the-different-types-of-consulting-services-min.png"
+    },
+    {
+        AboutUsTitle_EN: "Our Expert Team"
+        AboutUsDescription_EN: "Our dynamic team brings together expertise across software development, data science, digital transformation, marketing, security, compliance, cloud infrastructure architecture, data science, machine learning, fintech product development, and Insurtech solutions. With their deep industry knowledge and innovative thinking, they are committed to delivering transformative solutions that meet the unique needs of our clients."
+        AboutUsTitle_ES: "Nuestro Equipo de Expertos "
+        AboutUsDescription_ES: "Nuestro equipo dinámico reúne experiencia en desarrollo de software, ciencia de datos, transformación digital, marketing, seguridad, cumplimiento, arquitectura de infraestructura en la nube, ciencia de datos, aprendizaje automático, desarrollo de productos fintech y soluciones Insurtech. Con su profundo conocimiento de la industria y pensamiento innovador, están comprometidos a ofrecer soluciones transformadoras que satisfagan las necesidades únicas de nuestros clientes."
+        AboutUsImg: "https://paradoxmarketing.io/wp-content/uploads/2019/10/a-guide-to-the-different-types-of-consulting-services-min.png"
+    },
+    {
+        AboutUsTitle_EN: "Achievements"
+        AboutUsDescription_EN: "In a short time, we've partnered with numerous organizations to optimize their operations and achieve significant milestones in their industries."
+        AboutUsTitle_ES: "Logros"
+        AboutUsDescription_ES: "En poco tiempo, hemos colaborado con numerosas organizaciones para optimizar sus operaciones y lograr hitos significativos en sus industrias."
+        AboutUsImg: "https://paradoxmarketing.io/wp-content/uploads/2019/10/a-guide-to-the-different-types-of-consulting-services-min.png"
+    },
+
+
+]);
+
+db.Genera.Testimonials.insertMany([
+    {
+        User: "CEO Company"
+        TestimonialBody: "Genera Consulting Group has been instrumental in transforming our business operations. Their team s expertise and dedication have made a significant impact on our growth and efficiency."
+    },
+    {
+        User: "Carlos Lasala"
+        TestimonialBody: "Una excelente opcion!"
+    },
+    {
+        User: "Luis Perez"
+        TestimonialBody: "La mejor opcion del mercado"
+    },
+    {
+        User: "Anonimo"
+        TestimonialBody: "Excelente servicio"
+    },
+    {
+        User: "Maria"
+        TestimonialBody: "Prueba."
+    },
+    {
+        User: "Anónimo"
+        TestimonialBody: "Genera Consulting Group has been instrumental in transforming our business operations. Their team s expertise and dedication have made a significant impact on our growth and efficiency."
+    }
+]);
